@@ -1,3 +1,8 @@
+/*
+* Codigo de validacion de acceso al sistema. Solicita clave de 5 digitos para poder acceder, teniendo unicamente 3 intentos.
+*/
+
+
 #include <stdio.h>
 #include <string.h>
 #include <conio.h> // Biblioteca necesaria para _getch en Windows
