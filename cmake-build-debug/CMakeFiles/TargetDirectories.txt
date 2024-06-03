@@ -1,0 +1,3 @@
+/Users/octavio/Desktop/UCC/Arquitectura Computadoras 1/Practico/C/Arquitectura-de-computadoras-1/cmake-build-debug/CMakeFiles/Arquitectura_de_computadoras_1.dir
+/Users/octavio/Desktop/UCC/Arquitectura Computadoras 1/Practico/C/Arquitectura-de-computadoras-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/octavio/Desktop/UCC/Arquitectura Computadoras 1/Practico/C/Arquitectura-de-computadoras-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

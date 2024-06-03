@@ -32,7 +32,7 @@ void disp_binary(unsigned char pattern) {
     for (int t = 128; t > 0; t >>= 1) {
         // Verificar si el bit actual está encendido (1) o apagado (0)
         if (pattern & t) {
-            printf("#"); // Imprimir un asterisco si el bit está encendido
+            printf("*"); // Imprimir un asterisco si el bit está encendido
         } else {
             printf("-"); // Imprimir un guion bajo si el bit está apagado
         }

@@ -8,7 +8,7 @@ void choque(void);
 void disp_binary(unsigned char pattern);
 
 /*
- * Se emplea el termino 'unsigned' (no signado)
+ * Se emplea el termino 'unsigned' (no signado) [...]
  *
  */
 
