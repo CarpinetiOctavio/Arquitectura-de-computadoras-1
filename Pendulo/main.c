@@ -17,9 +17,9 @@ void pendulo(void) {
 
     // Tabla de patrones en formato hexadecimal para la secuencia del péndulo
     unsigned char patrones[NUM_PATTERNS] = {
-            0x90, // *---*---
-            0x50, // -*--*---
-            0x30, // --*-*---
+            0x88, // *---*---
+            0x48, // -*--*---
+            0x28, // --*-*---
             0x18, // ---**---
             0x14, // ---*-*--
             0x12, // ---*--*-
@@ -28,9 +28,9 @@ void pendulo(void) {
             0x12, // ---*--*-
             0x14, // ---*-*--
             0x18, // ---**---
-            0x30, // --**----
-            0x50, // -*-*----
-            0x90, // *--*----
+            0x28, // --*-*---
+            0x48, // -*--*---
+            0x88, // *---*---
     };
 
     // Bucle que recorre la tabla de patrones
