@@ -8,4 +8,6 @@ add_executable(Arquitectura_de_computadoras_1
         Choque/main.c
         "Sec. ADN 1/main.c"
         "Sec. ADN 2/Secuencia ADN 2.c"
-        Carrera/main.c)
+        Carrera/main.c
+        Pendulo/main.c
+        Retardo/Retardo.c)

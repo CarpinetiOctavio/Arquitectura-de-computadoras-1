@@ -79,6 +79,18 @@ build CMakeFiles/Arquitectura_de_computadoras_1.dir/Carrera/main.c.o: C_COMPILER
   OBJECT_DIR = CMakeFiles/Arquitectura_de_computadoras_1.dir
   OBJECT_FILE_DIR = CMakeFiles/Arquitectura_de_computadoras_1.dir/Carrera
 
+build CMakeFiles/Arquitectura_de_computadoras_1.dir/Pendulo/main.c.o: C_COMPILER__Arquitectura_de_computadoras_1_unscanned_Debug /Users/octavio/Desktop/UCC/Arquitectura$ Computadoras$ 1/Practico/C/Arquitectura-de-computadoras-1/Pendulo/main.c || cmake_object_order_depends_target_Arquitectura_de_computadoras_1
+  DEP_FILE = CMakeFiles/Arquitectura_de_computadoras_1.dir/Pendulo/main.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Arquitectura_de_computadoras_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Arquitectura_de_computadoras_1.dir/Pendulo
+
+build CMakeFiles/Arquitectura_de_computadoras_1.dir/Retardo/Retardoi.c.o: C_COMPILER__Arquitectura_de_computadoras_1_unscanned_Debug /Users/octavio/Desktop/UCC/Arquitectura$ Computadoras$ 1/Practico/C/Arquitectura-de-computadoras-1/Retardo/Retardoi.c || cmake_object_order_depends_target_Arquitectura_de_computadoras_1
+  DEP_FILE = CMakeFiles/Arquitectura_de_computadoras_1.dir/Retardo/Retardoi.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Arquitectura_de_computadoras_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Arquitectura_de_computadoras_1.dir/Retardo
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Arquitectura_de_computadoras_1
@@ -87,7 +99,7 @@ build CMakeFiles/Arquitectura_de_computadoras_1.dir/Carrera/main.c.o: C_COMPILER
 #############################################
 # Link the executable Arquitectura_de_computadoras_1
 
-build Arquitectura_de_computadoras_1: C_EXECUTABLE_LINKER__Arquitectura_de_computadoras_1_Debug CMakeFiles/Arquitectura_de_computadoras_1.dir/Acceso/main.c.o CMakeFiles/Arquitectura_de_computadoras_1.dir/Choque/main.c.o CMakeFiles/Arquitectura_de_computadoras_1.dir/Sec._ADN_1/main.c.o CMakeFiles/Arquitectura_de_computadoras_1.dir/Sec._ADN_2/Secuencia_ADN_2.c.o CMakeFiles/Arquitectura_de_computadoras_1.dir/Carrera/main.c.o
+build Arquitectura_de_computadoras_1: C_EXECUTABLE_LINKER__Arquitectura_de_computadoras_1_Debug CMakeFiles/Arquitectura_de_computadoras_1.dir/Acceso/main.c.o CMakeFiles/Arquitectura_de_computadoras_1.dir/Choque/main.c.o CMakeFiles/Arquitectura_de_computadoras_1.dir/Sec._ADN_1/main.c.o CMakeFiles/Arquitectura_de_computadoras_1.dir/Sec._ADN_2/Secuencia_ADN_2.c.o CMakeFiles/Arquitectura_de_computadoras_1.dir/Carrera/main.c.o CMakeFiles/Arquitectura_de_computadoras_1.dir/Pendulo/main.c.o CMakeFiles/Arquitectura_de_computadoras_1.dir/Retardo/Retardoi.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/Arquitectura_de_computadoras_1.dir
   POST_BUILD = :
