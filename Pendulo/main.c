@@ -53,3 +53,17 @@ void disp_binary(unsigned char pattern) {
     }
     printf("\n"); // Imprimir una nueva línea al final del patrón
 }
+
+
+/*
+ * void retardo (unsigned long int a)
+ * {
+ *      while (a)
+ *      {
+ *          ...
+ *          a--;
+ *       }
+ * }
+ *
+ * El sensado de las teclas con Up y Down
+ */

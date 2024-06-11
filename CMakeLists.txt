@@ -10,4 +10,5 @@ add_executable(Arquitectura_de_computadoras_1
         "Sec. ADN 2/Secuencia ADN 2.c"
         Carrera/main.c
         Pendulo/main.c
-        Retardo/Retardo.c)
+        Retardo/Retardo.c
+        menu.c)
