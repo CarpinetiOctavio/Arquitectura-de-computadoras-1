@@ -7,7 +7,7 @@
 Pendulo:
         PUSH (R4,R5,R6,LR) // Salvo los registros
         MOV R4,#14 // Aca inicializamos en 14 porque va a ser el contador y nuestro array es de 14 bytes
-        LDR R5, =array // carga en el registro 5 la dirección del arreglo (va a acceder al array[0])
+        LDR R5, =pend // carga en el registro 5 la dirección del arreglo (va a acceder al array[0])
     //Aca empieza el loop (bucle)
 loop:   LDRB R6,[R5],#1 
         MOV R0,R5
@@ -22,7 +22,7 @@ loop:   LDRB R6,[R5],#1
 
 .data
 //Aca simplemente declaro el arreglo con los valores en hexadecimal que representan las leds
-array: 
+pend: 
     .byte 0x88
     .byte 0x48
     .byte 0x28
